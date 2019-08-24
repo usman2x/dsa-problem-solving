@@ -3,7 +3,7 @@ package com.usman.dsa.bitwise;
 public class BitWiseTest {
     public static void main(String[] args) {
         int a = 0xFFFF;
-        int b = 0xAAAA;
+        int b = 0xABCD;
         System.out.println("a = " + Integer.toBinaryString(a));
         System.out.println("a = " + Integer.toBinaryString(b));
         System.out.printf("%d | %d = %d \n", a, b, a | b);
