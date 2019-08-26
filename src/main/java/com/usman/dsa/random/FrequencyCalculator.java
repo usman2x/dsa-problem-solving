@@ -11,6 +11,10 @@ public class FrequencyCalculator {
         frequencyCalculator.calculate(frequency);
     }
 
+    /**
+     *
+     * @param frequency Array of frequencies
+     */
     private void calculate(int[] frequency) {
         Map<Integer, Integer> freq = new HashMap<>();
         IntStream.of(frequency).forEach(number -> {

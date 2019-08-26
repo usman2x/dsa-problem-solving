@@ -16,6 +16,12 @@ public class BinarySearch {
         System.out.println(binarySearch.search(arr, 0) == -1);
     }
 
+    /**
+     *
+     * @param arr Given sorted array of N elements
+     * @param searchElement searching element
+     * @return -1 if element not found otherwise index of that element
+     */
     private int search(int[] arr, int searchElement) {
         int start = 0;
         int end = arr.length - 1;

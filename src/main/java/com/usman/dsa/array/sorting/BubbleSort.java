@@ -15,6 +15,8 @@ public class BubbleSort {
     }
 
     /**
+     * Compare adjacent array elements and swap if elemnts are not in sorting order
+     *
      * @param arr given array of size N
      */
     private void sort(int[] arr) {
